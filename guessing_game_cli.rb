@@ -1,8 +1,7 @@
 require "pry"
 
 def run_guessing_game
- 
- 
+  binding.pry
   if user_input == 'exit'
     puts "Goodbye!"
   elsif user_input == number
