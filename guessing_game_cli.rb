@@ -1,9 +1,6 @@
-requires "pry"
-
 def run_guessing_game
   user_input = gets.chomp
   number = rand(6) + 1
-  binding.pry
   if user_input == 'exit'
     puts "Goodbye!"
   elsif user_input == "#{number}"
