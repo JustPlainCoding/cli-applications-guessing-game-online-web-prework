@@ -1,6 +1,6 @@
 def run_guessing_game
   number = rand(6) + 1
-  user_input = gets.chomp
+  user_input = gets
   if user_input == 'exit'
     puts "Goodbye!"
   elsif user_input == number
